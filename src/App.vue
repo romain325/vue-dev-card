@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <vue-dev-card>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <git-hub username="romain325"/>
+  </vue-dev-card>
 </template>
 
 <script>
+import GitHub from './components/Github/GitHub.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import VueDevCard from './VueDevCard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    VueDevCard,
+    GitHub
   }
 }
 </script>
