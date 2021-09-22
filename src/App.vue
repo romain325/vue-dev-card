@@ -1,13 +1,14 @@
 <template>
-  <vue-dev-card>
-    <img alt="Vue logo" src="./assets/logo.png">
+  <vue-dev-card style="height: 20%; width: 30%;">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <git-hub username="romain325"/>
+    <readme username="romain325"/>
   </vue-dev-card>
 </template>
 
 <script>
 import GitHub from './components/Github/GitHub.vue'
+import Readme from './components/Github/Readme.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import VueDevCard from './VueDevCard.vue'
 
@@ -16,7 +17,8 @@ export default {
   components: {
     HelloWorld,
     VueDevCard,
-    GitHub
+    GitHub,
+    Readme
   }
 }
 </script>

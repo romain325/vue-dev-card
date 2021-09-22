@@ -1,5 +1,5 @@
 <template>
-<div class="card m-5">
+<div class="card m-5 holder">
   <div class="card-header">
     <div class="nav nav-pills card-header-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <button 
@@ -67,3 +67,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.holder {
+  border: 1px solid var(--bs-primary);
+}
+</style>
