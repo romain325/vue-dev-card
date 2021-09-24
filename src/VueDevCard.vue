@@ -1,7 +1,7 @@
 <template>
 <div class="card m-5 holder">
   <div class="card-header">
-    <div class="nav nav-pills card-header-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <div class="nav nav-pills card-header-pills me-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <button 
               v-for="(node,i) in nodes" 
               :key="i" 
@@ -13,7 +13,7 @@
               role="tab" 
               :aria-controls="'v-pills-' + i" 
               aria-selected="true"
-              selected="HelloWorld">
+              selected="2">
                   {{node.type.name}}
           </button>
       </div>
@@ -71,5 +71,9 @@ export default {
 <style scoped>
 .holder {
   border: 1px solid var(--bs-primary);
+}
+
+.card-body {
+  overflow-x: scroll;
 }
 </style>

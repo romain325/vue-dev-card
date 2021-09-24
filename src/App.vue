@@ -1,5 +1,5 @@
 <template>
-  <vue-dev-card style="height: 20%; width: 30%;">
+  <vue-dev-card style="height: 250px; width: 400px;">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <git-hub username="romain325"/>
     <readme username="romain325"/>
