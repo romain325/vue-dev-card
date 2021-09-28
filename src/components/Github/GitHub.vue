@@ -67,11 +67,12 @@ ul{
 .status li {
     float: left;
     padding: 5px 0;
-    box-shadow: 1px 0 0 #eee;
+    box-shadow: 1px 0 0 var(--bs-secondary);
     width: 25%;
     height: 100%;
 }
 .status li:last-of-type {
   box-shadow: none;
 }
+hr, ul { margin: 0; }
 </style>
