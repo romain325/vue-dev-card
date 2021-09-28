@@ -2,23 +2,17 @@
 
 ## Project setup
 ```
-yarn install
+yarn add vue-dev-card
+```
+## How to use
+
+```html
+<template>
+  <vue-dev-card>
+    <git-hub username="romain325"/>
+    <readme username="romain325"/>
+  </vue-dev-card>
+</template>
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can implement your own card and use it on your personal project or create a Merge Request, I'll be happy to review it  
